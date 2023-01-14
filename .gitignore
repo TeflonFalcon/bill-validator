@@ -2,3 +2,4 @@ node_modules
 test/coverage
 yarn-error.log
 *.sublime-project
+.idea

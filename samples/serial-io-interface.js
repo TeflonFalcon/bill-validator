@@ -9,12 +9,12 @@
 import createSerialInterface from '../lib/create-serial-interface.js'
 
 export default createSerialInterface({
-	port: '/dev/ttyUSB0'
-	, portOptions: {
+	portOptions: {
+		path: 'COM3',
 		autoOpen: false
 		, baudRate: 9600
-		, dataBits: 7
-		, parity: 'even'
+		, dataBits: 8
+		, parity: 'none'
 		, stopBits: 1
 	}
 })

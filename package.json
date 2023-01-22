@@ -3,7 +3,6 @@
 	"version": "0.9.0",
 	"description": "Bill validator/acceptor",
 	"main": "index.js",
-	"type": "module",
 	"repository": "git@github.com:RichAyotte/bill-validator.git",
 	"author": "Richard Ayotte <rich@bitcoinbarber.ca>",
 	"license": "MIT",
